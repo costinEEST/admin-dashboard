@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +18,8 @@
     "@fastify/formbody": "^7.4.0",
     "@fastify/helmet": "^10.1.0",
     "fastify": "^4.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }

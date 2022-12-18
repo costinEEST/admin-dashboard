@@ -51,12 +51,13 @@ fastify.addContentTypeParser(
   }
 );
 
-fastify.get("", async (request, reply) => {});
+fastify.get("/", async (request, reply) => {});
 
 (async () => {
   try {
     await fastify.listen({
-      port,
+      port: process.env.PORT,
+      host: process.env.HOST || "0.0.0.0",
     });
   } catch (err) {
     fastify.log.error(err);
