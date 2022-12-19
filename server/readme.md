@@ -3,3 +3,4 @@
 
 - https://stackoverflow.com/a/64819793/1904223
 - [Web process failed to bind to `$PORT`](https://github.com/fastify/fastify/issues/709)
+- https://dev.to/olen_d/how-to-access-dotenv-variables-using-fastify-env-plugin-2i34
