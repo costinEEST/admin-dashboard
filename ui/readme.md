@@ -1,0 +1,1 @@
+- Scaffold the [frontend](https://github.com/fdaciuk/boilerplate-vite-react)'s code with: `npx degit fdaciuk/boilerplate-vite-react`

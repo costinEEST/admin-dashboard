@@ -5,5 +5,5 @@
   - https://github.com/glideapps/glide-data-grid
   - https://github.com/handsontable/handsontable
 
-- Notes for the [client](client/README.md)
+- Notes for the [client](ui/readme.md)
 - Notes for the [server](server/readme.md)
