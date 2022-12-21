@@ -1,1 +1,3 @@
 - Scaffold the [frontend](https://github.com/fdaciuk/boilerplate-vite-react)'s code with: `npx degit fdaciuk/boilerplate-vite-react`
+- I have chosen [`mantine-datatable`](https://github.com/icflorescu/mantine-datatable) as a table library instead of [`react-table-library`](https://github.com/table-library/react-table-library), [`mantine-data-grid`](https://github.com/Kuechlin/mantine-data-grid), [`glide-data-grid`](https://github.com/glideapps/glide-data-grid), [`handsontable`](https://github.com/handsontable/handsontable) or [`x-data-grid`](https://www.npmjs.com/package/@mui/x-data-grid).
+- `yarn add @mantine/core @mantine/hooks @emotion/react @nivo/bar @nivo/core @nivo/geo @nivo/pie @reduxjs/toolkit mantine-datatable react-redux react-datepicker react-router-dom`
